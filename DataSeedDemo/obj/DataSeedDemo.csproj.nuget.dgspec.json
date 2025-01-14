@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fiqriismail/Playground/dotnet/DataSeedDemo/DataSeedDemo/DataSeedDemo.csproj": {}
+    "/Users/fiqriismail/Playground/dotnet/DataSeedsDemo/DataSeedDemo/DataSeedDemo.csproj": {}
   },
   "projects": {
-    "/Users/fiqriismail/Playground/dotnet/DataSeedDemo/DataSeedDemo/DataSeedDemo.csproj": {
+    "/Users/fiqriismail/Playground/dotnet/DataSeedsDemo/DataSeedDemo/DataSeedDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fiqriismail/Playground/dotnet/DataSeedDemo/DataSeedDemo/DataSeedDemo.csproj",
+        "projectUniqueName": "/Users/fiqriismail/Playground/dotnet/DataSeedsDemo/DataSeedDemo/DataSeedDemo.csproj",
         "projectName": "DataSeedDemo",
-        "projectPath": "/Users/fiqriismail/Playground/dotnet/DataSeedDemo/DataSeedDemo/DataSeedDemo.csproj",
+        "projectPath": "/Users/fiqriismail/Playground/dotnet/DataSeedsDemo/DataSeedDemo/DataSeedDemo.csproj",
         "packagesPath": "/Users/fiqriismail/.nuget/packages/",
-        "outputPath": "/Users/fiqriismail/Playground/dotnet/DataSeedDemo/DataSeedDemo/obj/",
+        "outputPath": "/Users/fiqriismail/Playground/dotnet/DataSeedsDemo/DataSeedDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fiqriismail/.nuget/NuGet/NuGet.Config"

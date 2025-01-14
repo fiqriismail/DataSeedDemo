@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataSeedDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+412f9a3b1fdd331800156628ce6286c271a14f0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ff73f352859e707fcb3ef33c1b04c57b0a8b51c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataSeedDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataSeedDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

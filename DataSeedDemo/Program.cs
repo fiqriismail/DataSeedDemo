@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using DataSeedDemo.Data;
+using DataSeedDemo.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<DataSeedDemoDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+        .UseSeeding((dbContext, _) =>
+        {
+            if (!dbContext.Set<Employee>().Any())
+            {
+                dbContext.Set<Employee>().AddRange(
+                    new Employee { Name = "John Doe", Department = "IT", Email = "johndoe@example.com", Salary = 50000},
+                    new Employee { Name = "Jane Doe", Department = "HR", Email = "janedoe@example.com", Salary = 60000},
+                    new Employee { Name = "Alice", Department = "IT", Email = "alice@example.com", Salary = 70000}
+                );
+                dbContext.SaveChanges();
+            }
+        }));
 
 var app = builder.Build();
 

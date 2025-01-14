@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zlr5s88mybI=",
+  "dgSpecHash": "+0iSE0q8GIE=",
   "success": true,
-  "projectFilePath": "/Users/fiqriismail/Playground/dotnet/DataSeedDemo/DataSeedDemo/DataSeedDemo.csproj",
+  "projectFilePath": "/Users/fiqriismail/Playground/dotnet/DataSeedsDemo/DataSeedDemo/DataSeedDemo.csproj",
   "expectedPackageFiles": [
     "/Users/fiqriismail/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/fiqriismail/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
